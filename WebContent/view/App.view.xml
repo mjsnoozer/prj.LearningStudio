@@ -1,0 +1,19 @@
+<mvc:View 
+	controllerName="prj.LearningCenter.controller.App" 
+	xmlns:l="sap.ui.layout" 
+	xmlns:core="sap.ui.core"
+	xmlns:ui="sap.ui.commons"    
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m">
+
+	<Panel class="sapUiResponsiveMargin panelStyle" width="40%" >
+		<content>
+			<Input type="text" placeholder="{/misctext/name}" width="100%"/>
+			<Input type="Password" placeholder="{/misctext/pass}" width="100%"/>
+			<Input placeholder="{/misctext/lang}" width="100%"/>
+		</content>
+		<content>
+			<Button text="Log In" width="100%" press="onShowHello" class="buttonStyle"/>
+		</content>
+	</Panel>
+</mvc:View>
